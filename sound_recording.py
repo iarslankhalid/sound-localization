@@ -61,7 +61,7 @@ print("Left mic buffer size:", buffer_left.shape)
 print("Right mic buffer size:", buffer_right.shape)
 
 # Save the audio files as separate WAV files
-wav.write("left_mic.wav", fs, buffer_left)
-wav.write("right_mic.wav", fs, buffer_right)
+wav.write("left_mic_clap.wav", fs, buffer_left)
+wav.write("right_mic_clap.wav", fs, buffer_right)
 
 print("Recording complete. Saved as 'left_mic.wav' and 'right_mic.wav'")
